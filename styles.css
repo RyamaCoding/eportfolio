@@ -138,7 +138,7 @@ nav{
 
 /* ABOUT ME */
 
-#about-me{
+#about-me {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -222,14 +222,9 @@ nav{
 
 .about-me__img{
     width: 100%;
-    animation: fade-in 1200ms 800ms backwards;
 }
 
-.about-me__img--container{
-    flex: 1;
-    display: flex;
-    align-items: center;
-}
+
 
 @keyframes fade-in{
     0%{
